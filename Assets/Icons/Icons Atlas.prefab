@@ -1,0 +1,273 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &185130
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 436984}
+  - 114: {fileID: 11446478}
+  m_Layer: 0
+  m_Name: Icons Atlas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &436984
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 185130}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11446478
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 185130}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d0c51bb0b6e93049af5e88f93826e3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: 1c3d133fd60e5714e9e063b3dc0f84e2, type: 2}
+  sprites:
+  - name: cancel
+    outer:
+      serializedVersion: 2
+      x: 513
+      y: 882
+      width: 38
+      height: 38
+    inner:
+      serializedVersion: 2
+      x: 513
+      y: 882
+      width: 38
+      height: 38
+    rotated: 0
+    paddingLeft: .368421048
+    paddingRight: .315789461
+    paddingTop: .342105269
+    paddingBottom: .342105269
+  - name: accept
+    outer:
+      serializedVersion: 2
+      x: 842
+      y: 983
+      width: 49
+      height: 41
+    inner:
+      serializedVersion: 2
+      x: 842
+      y: 983
+      width: 49
+      height: 41
+    rotated: 0
+    paddingLeft: .183673471
+    paddingRight: .122448981
+    paddingTop: .243902445
+    paddingBottom: .317073166
+  - name: background_square
+    outer:
+      serializedVersion: 2
+      x: 513
+      y: 962
+      width: 63
+      height: 62
+    inner:
+      serializedVersion: 2
+      x: 513
+      y: 962
+      width: 63
+      height: 62
+    rotated: 0
+    paddingLeft: .0158730168
+    paddingRight: 0
+    paddingTop: .0161290318
+    paddingBottom: .0161290318
+  - name: World_RoseOfWinds
+    outer:
+      serializedVersion: 2
+      x: 577
+      y: 962
+      width: 62
+      height: 62
+    inner:
+      serializedVersion: 2
+      x: 577
+      y: 962
+      width: 62
+      height: 62
+    rotated: 0
+    paddingLeft: .0161290318
+    paddingRight: .0161290318
+    paddingTop: .0161290318
+    paddingBottom: .0161290318
+  - name: World_Compass
+    outer:
+      serializedVersion: 2
+      x: 640
+      y: 963
+      width: 54
+      height: 61
+    inner:
+      serializedVersion: 2
+      x: 640
+      y: 963
+      width: 54
+      height: 61
+    rotated: 0
+    paddingLeft: .0925925896
+    paddingRight: .0925925896
+    paddingTop: .0163934417
+    paddingBottom: .0327868834
+  - name: Rewards_Coins
+    outer:
+      serializedVersion: 2
+      x: 892
+      y: 983
+      width: 48
+      height: 41
+    inner:
+      serializedVersion: 2
+      x: 892
+      y: 983
+      width: 48
+      height: 41
+    rotated: 0
+    paddingLeft: .208333328
+    paddingRight: .125
+    paddingTop: .268292695
+    paddingBottom: .292682916
+  - name: Inventory_Moneybag
+    outer:
+      serializedVersion: 2
+      x: 746
+      y: 972
+      width: 48
+      height: 52
+    inner:
+      serializedVersion: 2
+      x: 746
+      y: 972
+      width: 48
+      height: 52
+    rotated: 0
+    paddingLeft: .166666672
+    paddingRight: .166666672
+    paddingTop: .0769230798
+    paddingBottom: .15384616
+  - name: Wood texture floor_01
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 512
+      width: 512
+      height: 512
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 512
+      width: 512
+      height: 512
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Elements_Ground
+    outer:
+      serializedVersion: 2
+      x: 941
+      y: 983
+      width: 47
+      height: 41
+    inner:
+      serializedVersion: 2
+      x: 941
+      y: 983
+      width: 47
+      height: 41
+    rotated: 0
+    paddingLeft: .191489369
+    paddingRight: .170212761
+    paddingTop: .219512194
+    paddingBottom: .341463417
+  - name: World_Chest
+    outer:
+      serializedVersion: 2
+      x: 513
+      y: 921
+      width: 48
+      height: 40
+    inner:
+      serializedVersion: 2
+      x: 513
+      y: 921
+      width: 48
+      height: 40
+    rotated: 0
+    paddingLeft: .166666672
+    paddingRight: .166666672
+    paddingTop: .300000012
+    paddingBottom: .300000012
+  - name: Elements_Nature
+    outer:
+      serializedVersion: 2
+      x: 795
+      y: 972
+      width: 46
+      height: 52
+    inner:
+      serializedVersion: 2
+      x: 795
+      y: 972
+      width: 46
+      height: 52
+    rotated: 0
+    paddingLeft: .195652172
+    paddingRight: .195652172
+    paddingTop: .0961538479
+    paddingBottom: .134615391
+  - name: block
+    outer:
+      serializedVersion: 2
+      x: 695
+      y: 974
+      width: 50
+      height: 50
+    inner:
+      serializedVersion: 2
+      x: 695
+      y: 974
+      width: 50
+      height: 50
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 185130}
+  m_IsPrefabParent: 1
